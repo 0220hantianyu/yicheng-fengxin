@@ -1,0 +1,30 @@
+{
+  "name": "yi-cheng-feng-xin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "一程风信 - 根据旅游行程提供天气预报",
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "npm run dev --workspace=client",
+    "dev:server": "npm run dev --workspace=server",
+    "build": "npm run build --workspace=shared && npm run build --workspace=server && npm run build --workspace=client",
+    "build:client": "npm run build --workspace=client",
+    "build:vercel": "cd client && npx vite build",
+    "test": "npm run test --workspace=client",
+    "lint": "echo \"lint placeholder\""
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.1.0",
+    "concurrently": "^9.1.0"
+  },
+  "dependencies": {
+    "agent-base": "^9.0.0",
+    "http-proxy-agent": "^9.1.0",
+    "https-proxy-agent": "^9.1.0"
+  }
+}

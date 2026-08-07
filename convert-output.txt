@@ -1,0 +1,31 @@
+Header columns: {"Location_ID":0,"Location_Name_EN":1,"Location_Name_ZH":2,"ISO_3166_1":3,"Country_Region_EN":4,"Country_Region_ZH":5,"Adm1_Name_EN":6,"Adm1_Name_ZH":7,"Adm2_Name_EN":8,"Adm2_Name_ZH":9,"Timezone":10,"Latitude":11,"Longitude":12,"AD_code":13}
+Total data lines: 3579
+Generated 3577 cities -> D:\Projects\一程风信\server\src\data\china-cities.json
+File size: 635605 bytes
+Errors: 0
+
+--- Sample (first 5) ---
+  北京 (北京市 北京市) id=101010100
+  海淀 (北京市 北京市) id=101010200
+  朝阳 (北京市 北京市) id=101010300
+  顺义 (北京市 北京市) id=101010400
+  怀柔 (北京市 北京市) id=101010500
+
+--- Xishuangbanna search ---
+  景洪 (云南省 西双版纳傣族自治州) id=101291601
+  西双版纳 (云南省 西双版纳傣族自治州) id=101291602
+  勐海 (云南省 西双版纳傣族自治州) id=101291603
+  勐腊 (云南省 西双版纳傣族自治州) id=101291605
+
+--- Yunnan cities ---
+Total Yunnan cities: 145
+  昆明 (昆明市)
+  五华 (昆明市)
+  东川 (昆明市)
+  寻甸 (昆明市)
+  晋宁 (昆明市)
+  宜良 (昆明市)
+  石林 (昆明市)
+  呈贡 (昆明市)
+  富民 (昆明市)
+  嵩明 (昆明市)
