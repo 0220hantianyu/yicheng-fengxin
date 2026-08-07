@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { WeatherAdapter } from './weather-adapter.js';
-import type { GeoSearchResult, WeatherData, WeatherDaily } from 'shared/types';
+import type { GeoSearchResult, WeatherData, WeatherDaily } from '../../../shared/types';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

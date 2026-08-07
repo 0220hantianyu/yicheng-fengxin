@@ -1,4 +1,4 @@
-import type { GeoSearchResult, WeatherData } from 'shared/types';
+import type { GeoSearchResult, WeatherData } from '../../../shared/types';
 
 /**
  * 天气服务 Adapter 接口

@@ -1,5 +1,5 @@
 import type { WeatherAdapter } from './weather-adapter.js';
-import type { GeoSearchResult, WeatherData, WeatherDaily, AirQualityData } from 'shared/types';
+import type { GeoSearchResult, WeatherData, WeatherDaily, AirQualityData } from '../../../shared/types';
 
 /**
  * 和风天气 Adapter
